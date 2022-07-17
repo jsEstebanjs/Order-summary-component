@@ -21,7 +21,7 @@ body{
 }
 .section-main-container{
     min-width: 28rem;
-    max-width: 37rem;
+    max-width: 40rem;
     background-color: white;
     border-radius: 10px;
     margin: 2rem;
@@ -35,7 +35,7 @@ div{
 }
 .div-info h2{
     font-size: 20px;
-    color: #283358;
+    color: #1C2B4F;
     margin: 1rem 0 1rem 0;
 
 }
@@ -45,4 +45,64 @@ div{
 }
 .div-info{
     text-align:  center;
+}
+.div-price{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    align-items: center;
+}
+.div-price div img{
+    width: 40%;
+}
+.div-price .div-prices-img{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+}
+.div-price .div-prices-p{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+.div-price div a{
+    color: #6055CB;
+    font-weight: 900;
+    font-size: 12px;
+}
+.div-price div p:nth-child(1){
+    font-weight: 900;
+    color: #1C2B4F;
+    font-size: 12px;
+}
+.div-price div p:nth-child(2){
+    font-weight: 900;
+    color: #8F919F;
+    font-size: 12px;
+}
+.main-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+
+}
+.main-buttons .button-1{
+    border-radius: 10px;
+    height: 3rem;
+    border: none;
+    width: 80%;
+    background-color: #382AE1;
+    margin-bottom: 0,5rem;
+    color: white;
+}
+.main-buttons .button-2{
+    border-radius: 10px;
+    height: 3rem;
+    border: none;
+    width: 80%;
+    background-color: white;
+    color: #8F919F;
+    margin-bottom: 2rem;
 }
